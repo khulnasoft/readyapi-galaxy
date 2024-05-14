@@ -25,10 +25,10 @@ We are API nerds. You too? Let’s chat on Discord: <https://discord.gg/khulnaso
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/hanspagel">
-                    <img src="https://avatars.githubusercontent.com/u/1577992?v=4" width="100;" alt="hanspagel"/>
+                <a href="https://github.com/gitworkflows">
+                    <img src="https://avatars.githubusercontent.com/u/118260833?v=4" width="100;" alt="gitworkflows"/>
                     <br />
-                    <sub><b>hanspagel</b></sub>
+                    <sub><b>gitworkflows</b></sub>
                 </a>
             </td>
 		</tr>
