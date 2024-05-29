@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.4
     version: 0.1.4
   '@scalar/mock-server':
-    specifier: ^0.1.69
-    version: 0.1.69(axios@1.6.8)
+    specifier: ^0.1.70
+    version: 0.1.70(axios@1.6.8)
   follow-redirects:
     specifier: ^1.15.6
     version: 1.15.6
@@ -983,8 +983,8 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@scalar/mock-server@0.1.69(axios@1.6.8):
-    resolution: {integrity: sha512-ieIooZ8lBer4+i9ouEa0GgVVCQW7Wv5wG0WtgPuh7EOlzHNVVldVFoSO5196kt3e6T9MtvTSZIXFXRIGrNGkyg==}
+  /@scalar/mock-server@0.1.70(axios@1.6.8):
+    resolution: {integrity: sha512-L/yYIRKO9QlkHPlmMNExbd/kTLLRhKV4MJa/JcHZrHROaRA1nJThoOq3+EwHcwFedjrLB8rHwQtjP3VvrcyVOQ==}
     engines: {node: '>=18'}
     dependencies:
       '@hono/node-server': 1.11.1
