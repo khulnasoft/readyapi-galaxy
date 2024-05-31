@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.3.0",
-    "@cloudflare/workers-types": "^4.20240524.0",
+    "@cloudflare/workers-types": "^4.20240529.0",
     "@hono/vite-cloudflare-pages": "^0.4.0",
     "@hono/vite-dev-server": "^0.12.1",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
