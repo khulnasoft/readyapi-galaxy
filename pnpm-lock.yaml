@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.5
     version: 0.1.5
   '@scalar/mock-server':
-    specifier: ^0.1.71
-    version: 0.1.71(axios@1.6.8)
+    specifier: ^0.1.72
+    version: 0.1.72(axios@1.6.8)
   follow-redirects:
     specifier: ^1.15.6
     version: 1.15.6
@@ -938,12 +938,12 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@scalar/mock-server@0.1.71(axios@1.6.8):
-    resolution: {integrity: sha512-+2fdn3zhprDFJInXFHD3n/FxRftmib+2EOgiy0A1JQyMgamsuwEW2qjz1jRc62oP6r5ZJRLCnMrI12/TGNEDxw==}
+  /@scalar/mock-server@0.1.72(axios@1.6.8):
+    resolution: {integrity: sha512-oyIa5R3vJNKqQoUwxCmhoTahJ7zIITph9kniSqy2uSELyEujoFztH8bdF862B5/6Syn3XnCeJm7Xj1JORLJtTw==}
     engines: {node: '>=18'}
     dependencies:
       '@hono/node-server': 1.11.1
-      '@scalar/oas-utils': 0.1.16(axios@1.6.8)
+      '@scalar/oas-utils': 0.1.17(axios@1.6.8)
       '@scalar/openapi-parser': 0.3.2
       hono: 4.4.2
     transitivePeerDependencies:
@@ -956,8 +956,8 @@ packages:
       - terser
     dev: false
 
-  /@scalar/oas-utils@0.1.16(axios@1.6.8):
-    resolution: {integrity: sha512-zEKm81WJdBiTXoNVB5oB6L3XOEdiJIxj3pVfDYDrtGVObp5vV+iZh+f0O0HdnUt4TxpyXxLWW6iVnrxAOle9fA==}
+  /@scalar/oas-utils@0.1.17(axios@1.6.8):
+    resolution: {integrity: sha512-+n8klucq1Gt0iZBpwoNo9vDbzcwWo+Rj9vVsyT1bD/pmZLGcDSJT7t5PkVwPc3xOxkFPiVEV4chTHIYXN99xJQ==}
     engines: {node: '>=18'}
     peerDependencies:
       axios: ^1.5
@@ -1906,29 +1906,6 @@ packages:
       - utf-8-validate
     dev: true
 
-  /miniflare@3.20240524.0:
-    resolution: {integrity: sha512-RQAfpz7spI6gWlczeUYvJBgGyt0gNR2pYoCydgukCYZ+0bGfJl0yAiNFW62uH7uMZli/4juWPpQOBI5m7URoyA==}
-    engines: {node: '>=16.13'}
-    hasBin: true
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      acorn: 8.11.3
-      acorn-walk: 8.3.2
-      capnp-ts: 0.7.0
-      exit-hook: 2.2.1
-      glob-to-regexp: 0.4.1
-      stoppable: 1.1.0
-      undici: 5.28.4
-      workerd: 1.20240524.0
-      ws: 8.17.0
-      youch: 3.3.3
-      zod: 3.23.8
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
-    dev: true
-
   /miniflare@3.20240524.1:
     resolution: {integrity: sha512-5d3pRxvd5pT7lX1SsBH9+AjXuyHJnChSNOnYhubfi7pxMek4ZfULwhnUmNUp1R7b2xKuzqdFDZa0fsZuUoFxlw==}
     engines: {node: '>=16.13'}
@@ -2481,39 +2458,6 @@ packages:
       '@cloudflare/workerd-linux-64': 1.20240524.0
       '@cloudflare/workerd-linux-arm64': 1.20240524.0
       '@cloudflare/workerd-windows-64': 1.20240524.0
-    dev: true
-
-  /wrangler@3.57.2(@cloudflare/workers-types@4.20240529.0):
-    resolution: {integrity: sha512-QegYf0FW+4prlFKE9iHr1EGrCo8ejcGL9gaqEXrzQ0vbTdazykYbY0I5UpHFLNq2dIF9I/ifEoLRKr636tyHEw==}
-    engines: {node: '>=16.17.0'}
-    hasBin: true
-    peerDependencies:
-      '@cloudflare/workers-types': ^4.20240524.0
-    peerDependenciesMeta:
-      '@cloudflare/workers-types':
-        optional: true
-    dependencies:
-      '@cloudflare/kv-asset-handler': 0.3.2
-      '@cloudflare/workers-types': 4.20240529.0
-      '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
-      '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
-      blake3-wasm: 2.1.5
-      chokidar: 3.6.0
-      esbuild: 0.17.19
-      miniflare: 3.20240524.0
-      nanoid: 3.3.7
-      path-to-regexp: 6.2.2
-      resolve: 1.22.8
-      resolve.exports: 2.0.2
-      selfsigned: 2.4.1
-      source-map: 0.6.1
-      xxhash-wasm: 1.0.2
-    optionalDependencies:
-      fsevents: 2.3.3
-    transitivePeerDependencies:
-      - bufferutil
-      - supports-color
-      - utf-8-validate
     dev: true
 
   /wrangler@3.58.0(@cloudflare/workers-types@4.20240529.0):
